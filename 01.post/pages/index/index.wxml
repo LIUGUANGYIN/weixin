@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="userinfo">
+  <image class="userinfo-img" src="/images/index/u1.jpg"></image>
+    <text class="userinfo-name">Tom</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto" bindtap="click">开启之旅</text>
+  </view>
+</view>

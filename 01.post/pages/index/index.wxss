@@ -1,0 +1,24 @@
+page{
+  background: #faa;
+}
+.container{
+  text-align: center;
+}
+.userinfo{
+  margin-top:100rpx; 
+}
+.userinfo-img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.userinfo-name{
+  color: #ccc;
+  display: inherit;
+}
+.usermotto{
+  margin-top:800rpx; 
+}
+.user-motto{
+  border: 1rpx solid;
+}

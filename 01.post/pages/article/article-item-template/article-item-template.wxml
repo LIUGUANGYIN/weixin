@@ -1,0 +1,15 @@
+<template name="article-item-template">
+  <view class="article-top">
+    <image class="article-top-avatar" src='{{article.avatar}}'></image>
+    <text class='article-top-text'>{{article.date}}</text>
+  </view>
+  <text class="article-title">{{idx}}{{article.title}}</text>
+  <image class="article-title-img" src='{{article.img}}'></image>
+  <text class="article-describe">{{article.describe}}</text>
+  <view class="article-botto">
+    <image src='/images/swiper/tu.jpg'></image>
+    <text class='star'>{{article.star}}</text>
+    <image src='/images/swiper/tu2.jpg'></image>
+    <text class='blok'>{{article.blok}}</text>
+  </view>
+</template>

@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/movie-more/movie-more",
+    "pages/index/index",
+    "pages/article/index",
+    "pages/article-detail/article-detail",
+    "pages/movie/movie"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#faa",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "selectedColor":"#f21",
+    "borderStyle": "white",
+    "position":"top",
+    "list": [
+      {
+        "pagePath": "pages/article/index",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影"
+      }
+    ]
+  }
+}

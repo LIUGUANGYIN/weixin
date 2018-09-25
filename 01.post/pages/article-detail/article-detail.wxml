@@ -1,0 +1,22 @@
+
+  <view>
+    <view class="article-detail-img">
+      <image class="article-detail-img-main" src='{{img}}'></image>
+      <image class="article-detail-img-music" src='/images/swiper/music.jpg'></image>
+    </view>
+    <view class="article-detail-head">
+      <image class="article-detail-head-avatar" src='{{avatar}}'></image> 
+      <text class="article-detail-head-name">Tom</text>
+      <text class="article-detail-head-text">发表于</text>
+      <text class="article-detail-head-date">{{time}}</text>
+    </view>
+    <text class="article-detail-title">{{title}}</text>   
+    <view class="article-detail-opreation">
+      <image wx:if="{{currentIsCollected}}" catchtap='tapCollection' class="article-detail-opreation-collection" src='/images/swiper/c2.jpg'></image>
+       <image wx:else catchtap='tapCollection' class="article-detail-opreation-collection" src='/images/swiper/c1.jpg'></image>
+      <image catchtap='tapShare'  class="article-detail-opreation-share" src='/images/swiper/f1.jpg'></image>
+      <view class='.article-detail-opreation-line'></view>
+    </view>
+    
+    <text class="article-detail-content">{{content}}</text>
+  </view> 

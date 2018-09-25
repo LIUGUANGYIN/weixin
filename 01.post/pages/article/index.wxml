@@ -1,0 +1,21 @@
+<import src="./article-item-template/article-item-template.wxml" />
+<view class="acontainer">
+  <swiper indicator-dots='true' indicator-color='#fff' indicator-active-color='#faa' autoplay='true'>
+    <swiper-item>
+      <image src='/images/swiper/s1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/swiper/s2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/swiper/s3.jpg'></image>
+    </swiper-item>
+  </swiper>
+    <view class="article">
+    <block wx:for="{{articles}}" wx:for-item="article" wx:for-index="inx" wx:key="">
+      <view catchtap="tap" data-article-id="{{article.articleId}}">
+        <template is="article-item-template" data="{{article:article}}" />
+      </view>
+    </block>
+    </view>
+</view>
